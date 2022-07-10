@@ -10,7 +10,7 @@
 
 resource "null_resource" "test" {
    provisioner "local-exec" {
-    command = "dnf install -y iputils"
+    command = "curl -v https://gitlab.mgmt.kdorigin-st.nissay.co.jp"
      }
   
   }
