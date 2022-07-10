@@ -10,7 +10,7 @@
 
 resource "null_resource" "test" {
    provisioner "local-exec" {
-    command = "ping -c 5 gitlab.mgmt.kdorigin-st.nissay.co.jp"
+    command = "dnf install -y iputils"
      }
   
   }
